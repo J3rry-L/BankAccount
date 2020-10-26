@@ -12,5 +12,15 @@ public class Tester {
     System.out.println(account1.getBalance());
     System.out.println(account1.deposit(-246.80));
     System.out.println(account1.getBalance());
+    System.out.println(account1.withdraw(5555.55));
+    System.out.println(account1.getBalance());
+    System.out.println(account1.withdraw(876.53));
+    System.out.println(account1.getBalance());
+    System.out.println(account1.withdraw(111.12));
+    System.out.println(account1.getBalance());
+    System.out.println(account1.withdraw(0));
+    System.out.println(account1.getBalance());
+    System.out.println(account1.withdraw(-898.78));
+    System.out.println(account1.getBalance());
   }
 }
