@@ -3,4 +3,12 @@ public class BankAccount {
   private double balance;
   private int accountID;
   private String password;
+
+  //Constructor
+  public BankAccount (int accountID, String password) {
+    this.accountID = accountID;
+    this.password = password;
+    this.balance = 0.0;
+  }
+
 }
