@@ -11,6 +11,7 @@ public class BankAccount {
     this.balance = 0.0;
   }
 
+  //Methods
   public double getBalance(){
     return balance;
   }
@@ -35,5 +36,8 @@ public class BankAccount {
     }
     return false;
   }
-  
+
+  public String toString(){
+    return(accountID + "\t" + balance);
+  }
 }
