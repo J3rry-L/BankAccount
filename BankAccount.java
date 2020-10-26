@@ -15,8 +15,11 @@ public class BankAccount {
     return balance;
   }
 
-   public int getAccountID(){
-     return accountID;
-   }
-   
+  public int getAccountID(){
+    return accountID;
+  }
+
+  public void setPassword(String newPass){
+    this.password = newPass;
+  } 
 }
