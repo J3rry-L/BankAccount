@@ -1,6 +1,6 @@
 public class BankAccount {
   //Instance vars
-  private double Balance;
+  private double balance;
   private int accountID;
   private String password;
 }
