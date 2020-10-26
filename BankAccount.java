@@ -21,5 +21,10 @@ public class BankAccount {
 
   public void setPassword(String newPass){
     this.password = newPass;
-  } 
+  }
+
+  public boolean deposit(double amount){
+    this.balance += Math.max(0, amount);
+    return (amount >= 0);
+  }
 }

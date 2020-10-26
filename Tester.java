@@ -6,5 +6,11 @@ public class Tester {
     System.out.println(account1.getAccountID());
     System.out.println(account2.getBalance());
     System.out.println(account2.getAccountID());
+    System.out.println(account1.deposit(987.65));
+    System.out.println(account1.getBalance());
+    System.out.println(account1.deposit(0));
+    System.out.println(account1.getBalance());
+    System.out.println(account1.deposit(-246.80));
+    System.out.println(account1.getBalance());
   }
 }
